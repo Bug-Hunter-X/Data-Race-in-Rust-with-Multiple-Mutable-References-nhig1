@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: creating multiple mutable references to the same variable, which leads to data races.  The original code causes a compile-time error. The solution showcases how to avoid this by using techniques like cloning, ownership transfer, or employing interior mutability.
